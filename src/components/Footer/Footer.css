@@ -1,0 +1,51 @@
+.footer-container{
+    position: relative;
+}
+
+.footer-container>hr{
+    border: 1px solid var(--lightgray);
+}
+
+.footer{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+}
+
+.social-icons{
+    display: flex;
+    gap: 4rem;
+}
+
+.social-icons > img{
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+.logo-f> img{
+    width: 12rem;
+}
+
+.footer-blur-1{
+    width: 26rem;
+    height: 12rem;
+    bottom: 0;
+    right: 15%;
+    filter: blur(200px);
+    background-color: red;
+}
+
+.footer-blur-2{
+    width: 26rem;
+    height: 12rem;
+    bottom: 0;
+    left: 15%;
+    filter: blur(200px);
+    background-color: rgba(255,115,0);
+}
+
